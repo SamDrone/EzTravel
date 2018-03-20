@@ -33,6 +33,10 @@ ext {
 }
 
 dependencies {
+    implementation 'com.google.android.gms:play-services-maps:+'
+    implementation 'com.android.support:appcompat-v7:26.+'
+}
+dependencies {
     compile "com.google.android.gms:play-services-maps:${playServicesVersion}"
     compile "com.google.android.gms:play-services-location:${playServicesVersion}"
 }

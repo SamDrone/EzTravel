@@ -1,11 +1,10 @@
 package com.mast.tourist.eztravel;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.Window;
-import android.view.WindowManager;
 
 public class Namaste extends AppCompatActivity {
 
@@ -23,7 +22,7 @@ public class Namaste extends AppCompatActivity {
                 Namaste.this.startActivity(mInHome);
                 Namaste.this.finish();
             }
-        }, 3000);
+        }, 2000);
 
     }
 }
